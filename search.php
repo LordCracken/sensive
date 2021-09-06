@@ -1,6 +1,6 @@
 <?php
-$hero_text = '<h1>Search: fast</h1>';
-get_header(null, ['content' => $hero_text]) ?>
+$hero_content = '<h1>Search: fast</h1>';
+get_header(null, ['content' => $hero_content]) ?>
 
 <!--================ Start Blog Post Area =================-->
 <section class="blog-post-area section-margin">

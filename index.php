@@ -1,9 +1,9 @@
 <?php
-$hero_text = '
+$hero_content = '
 <h3>Tours & Travels</h3>
 <h1>Amazing Places on earth</h1>
 <h4></h4>';
-get_header(null, ['content' => $hero_text]) ?>
+get_header(null, ['content' => $hero_content]) ?>
 
 <!--================ Blog slider start =================-->
 <section>

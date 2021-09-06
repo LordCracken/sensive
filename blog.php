@@ -1,5 +1,5 @@
 <?php
-$hero_text = '
+$hero_content = '
 <h1>Blog Page</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
@@ -7,7 +7,7 @@ $hero_text = '
     <li class="breadcrumb-item active" aria-current="page">Blog Page</li>
   </ol>
 </nav>';
-get_header(null, ['content' => $hero_text]) ?>
+get_header(null, ['content' => $hero_content]) ?>
 
 <!--================ Start Blog Post Area =================-->
 <section class="blog-post-area section-margin mt-4">

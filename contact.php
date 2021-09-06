@@ -1,5 +1,5 @@
 <?php
-$hero_text = '
+$hero_content = '
 <h1>Contact Us</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
@@ -7,7 +7,7 @@ $hero_text = '
     <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
   </ol>
 </nav>';
-get_header(null, ['content' => $hero_text]) ?>
+get_header(null, ['content' => $hero_content]) ?>
 
 <!-- ================ contact section start ================= -->
 <section class="section-margin--small section-margin">

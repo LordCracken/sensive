@@ -1,5 +1,5 @@
 <?php
-$hero_text = '
+$hero_content = '
 <h1>404 Page not found</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
@@ -7,5 +7,5 @@ $hero_text = '
     <li class="breadcrumb-item active" aria-current="page">404 Page not found</li>
   </ol>
 </nav>';
-get_header(null, ['content' => $hero_text]);
+get_header(null, ['content' => $hero_content]);
 get_footer();
