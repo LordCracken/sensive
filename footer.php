@@ -82,6 +82,37 @@
   </footer>
   <!--================ End Footer Area =================-->
   <?php wp_footer() ?>
+  <? if ($args['has_slider']) : ?>
+    <script>
+      if ($('.blog-slider').length) {
+        $('.blog-slider').owlCarousel({
+          loop: true,
+          margin: 30,
+          items: 1,
+          nav: true,
+          autoplay: 2500,
+          smartSpeed: 1500,
+          dots: false,
+          responsiveClass: true,
+          navText: [
+            "<div class='blog-slider__leftArrow'><img src='<? echo get_template_directory_uri() ?>/img/home/left-arrow.png'></div>",
+            "<div class='blog-slider__rightArrow'><img src='<? echo get_template_directory_uri() ?>/img/home/right-arrow.png'></div>"
+          ],
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      }
+    </script>
+  <? endif ?>
   </body>
 
   </html>

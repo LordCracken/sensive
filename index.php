@@ -305,4 +305,4 @@ get_header(null, ['content' => $hero_content]) ?>
 <!--================ End Blog Post Area =================-->
 </main>
 
-<?php get_footer() ?>
+<?php get_footer(null, ['has_slider' => true]) ?>
