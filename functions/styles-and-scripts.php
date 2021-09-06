@@ -2,13 +2,22 @@
 add_action('wp_enqueue_scripts', 'theme_styles_and_scripts');
 function theme_styles_and_scripts()
 {
-  wp_enqueue_style('style', get_stylesheet_uri() . 'css/style.css');
-  wp_enqueue_style('main', get_stylesheet_uri() . 'css/main.css');
+  // styles
+  wp_enqueue_style('bootstrap', get_template_directory_uri() . '/vendors/bootstrap/bootstrap.min.css');
+  wp_enqueue_style('fontawesome', get_template_directory_uri() . '/vendors/fontawesome/css/all.min.css');
+  wp_enqueue_style('fontawesome', get_template_directory_uri() . '/vendors/fontawesome/css/all.min.css');
+  wp_enqueue_style('linericon', get_template_directory_uri() . '/vendors/linericon/style.css');
+  wp_enqueue_style('owl-theme-default', get_template_directory_uri() . '/vendors/owl-carousel/owl.theme.default.min.css');
+  wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/vendors/owl-carousel/owl.carousel.min.css');
 
-  wp_enqueue_script('contact', get_template_directory_uri() . '/js/contact.js', array(), '1.0.0', true);
+  wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+
+  // scripts
+  wp_enqueue_script('jquery', get_template_directory_uri() . '/vendors/jquery/jquery-3.2.1.min.js', array(), '1.0.0', true);
+  wp_enqueue_script('bootstrap', get_template_directory_uri() . '/vendors/bootstrap/bootstrap.bundle.min.js', array(), '1.0.0', true);
+  wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/vendors/owl-carousel/owl.carousel.min.js', array(), '1.0.0', true);
+
   wp_enqueue_script('ajaxchimp', get_template_directory_uri() . '/js/jquery.ajaxchimp.min.js', array(), '1.0.0', true);
-  wp_enqueue_script('form', get_template_directory_uri() . '/js/jquery.form.js', array(), '1.0.0', true);
-  wp_enqueue_script('validate', get_template_directory_uri() . '/js/jquery.validate.min.js', array(), '1.0.0', true);
   wp_enqueue_script('mail-script', get_template_directory_uri() . '/js/mail-script.js', array(), '1.0.0', true);
   wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
 }
