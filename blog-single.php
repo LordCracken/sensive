@@ -16,7 +16,7 @@ get_header(null, ['content' => $hero_content]) ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="main_blog_details">
-          <img class="img-fluid" src="img/blog/blog4.png" alt="">
+          <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog4.png" alt="">
           <a href="#">
             <h4>Cartridge Is Better Than Ever <br /> A Discount Toner</h4>
           </a>
@@ -32,7 +32,7 @@ get_header(null, ['content' => $hero_content]) ?>
                   <p>12 Dec, 2017 11:21 am</p>
                 </div>
                 <div class="d-flex">
-                  <img width="42" height="42" src="img/blog/user-img.png" alt="">
+                  <img width="42" height="42" src="<? echo get_template_directory_uri() ?>/img/blog/user-img.png" alt="">
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
                 <div class="thumb">
-                  <img src="img/blog/c1.jpg" alt="">
+                  <img src="<? echo get_template_directory_uri() ?>/img/blog/c1.jpg" alt="">
                 </div>
                 <div class="desc">
                   <h5><a href="#">Emilly Blunt</a></h5>
@@ -80,7 +80,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
                 <div class="thumb">
-                  <img src="img/blog/c2.jpg" alt="">
+                  <img src="<? echo get_template_directory_uri() ?>/img/blog/c2.jpg" alt="">
                 </div>
                 <div class="desc">
                   <h5><a href="#">Elsie Cunningham</a></h5>
@@ -99,7 +99,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
                 <div class="thumb">
-                  <img src="img/blog/c3.jpg" alt="">
+                  <img src="<? echo get_template_directory_uri() ?>/img/blog/c3.jpg" alt="">
                 </div>
                 <div class="desc">
                   <h5><a href="#">Annie Stephens</a></h5>
@@ -118,7 +118,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
                 <div class="thumb">
-                  <img src="img/blog/c4.jpg" alt="">
+                  <img src="<? echo get_template_directory_uri() ?>/img/blog/c4.jpg" alt="">
                 </div>
                 <div class="desc">
                   <h5><a href="#">Maria Luna</a></h5>
@@ -137,7 +137,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
                 <div class="thumb">
-                  <img src="img/blog/c5.jpg" alt="">
+                  <img src="<? echo get_template_directory_uri() ?>/img/blog/c5.jpg" alt="">
                 </div>
                 <div class="desc">
                   <h5><a href="#">Ina Hayes</a></h5>
@@ -239,7 +239,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="popular-post-list">
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb1.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb1.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -253,7 +253,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb2.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb2.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -268,7 +268,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb3.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb3.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>

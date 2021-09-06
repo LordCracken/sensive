@@ -11,7 +11,7 @@ get_header(null, ['content' => $hero_content]) ?>
     <div class="owl-carousel owl-theme blog-slider">
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide1.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide1.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -20,7 +20,7 @@ get_header(null, ['content' => $hero_content]) ?>
       </div>
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide2.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide2.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -29,7 +29,7 @@ get_header(null, ['content' => $hero_content]) ?>
       </div>
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide3.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide3.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -38,7 +38,7 @@ get_header(null, ['content' => $hero_content]) ?>
       </div>
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide1.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide1.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -47,7 +47,7 @@ get_header(null, ['content' => $hero_content]) ?>
       </div>
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide2.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide2.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -56,7 +56,7 @@ get_header(null, ['content' => $hero_content]) ?>
       </div>
       <div class="card blog__slide text-center">
         <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide3.png" alt="">
+          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide3.png" alt="">
         </div>
         <div class="blog__slide__content">
           <h3><a href="#">New york fashion week's continued the evolution</a></h3>
@@ -75,7 +75,7 @@ get_header(null, ['content' => $hero_content]) ?>
       <div class="col-lg-8">
         <div class="single-recent-blog-post">
           <div class="thumb">
-            <img class="img-fluid" src="img/blog/blog1.png" alt="">
+            <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog1.png" alt="">
             <ul class="thumb-info">
               <li><a href="#"><i class="ti-user"></i>Admin</a></li>
               <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -96,7 +96,7 @@ get_header(null, ['content' => $hero_content]) ?>
 
         <div class="single-recent-blog-post">
           <div class="thumb">
-            <img class="img-fluid" src="img/blog/blog2.png" alt="">
+            <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog2.png" alt="">
             <ul class="thumb-info">
               <li><a href="#"><i class="ti-user"></i>Admin</a></li>
               <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -117,7 +117,7 @@ get_header(null, ['content' => $hero_content]) ?>
 
         <div class="single-recent-blog-post">
           <div class="thumb">
-            <img class="img-fluid" src="img/blog/blog3.png" alt="">
+            <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog3.png" alt="">
             <ul class="thumb-info">
               <li><a href="#"><i class="ti-user"></i>Admin</a></li>
               <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -138,7 +138,7 @@ get_header(null, ['content' => $hero_content]) ?>
 
         <div class="single-recent-blog-post">
           <div class="thumb">
-            <img class="img-fluid" src="img/blog/blog4.png" alt="">
+            <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog4.png" alt="">
             <ul class="thumb-info">
               <li><a href="#"><i class="ti-user"></i>Admin</a></li>
               <li><a href="#"><i class="ti-notepad"></i>January 12,2019</a></li>
@@ -222,7 +222,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="popular-post-list">
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb1.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb1.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -236,7 +236,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb2.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb2.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -251,7 +251,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb3.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb3.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>

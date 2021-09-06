@@ -18,7 +18,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card1.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card1.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -37,7 +37,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card2.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card2.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -56,7 +56,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card3.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card3.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -75,7 +75,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card4.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card4.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -94,7 +94,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card5.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card5.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -113,7 +113,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card6.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card6.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -132,7 +132,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card7.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card7.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -151,7 +151,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="col-md-6">
             <div class="single-recent-blog-post card-view">
               <div class="thumb">
-                <img class="card-img rounded-0" src="img/blog/thumb/thumb-card8.png" alt="">
+                <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb-card8.png" alt="">
                 <ul class="thumb-info">
                   <li><a href="#"><i class="ti-user"></i>Admin</a></li>
                   <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
@@ -321,7 +321,7 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="popular-post-list">
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb1.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb1.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -335,7 +335,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb2.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb2.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
@@ -350,7 +350,7 @@ get_header(null, ['content' => $hero_content]) ?>
               </div>
               <div class="single-post-list">
                 <div class="thumb">
-                  <img class="card-img rounded-0" src="img/blog/thumb/thumb3.png" alt="">
+                  <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/thumb/thumb3.png" alt="">
                   <ul class="thumb-info">
                     <li><a href="#">Adam Colinge</a></li>
                     <li><a href="#">Dec 15</a></li>
