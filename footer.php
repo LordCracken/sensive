@@ -53,16 +53,16 @@
             <h6>Follow Us</h6>
             <p>Let us be social</p>
             <div class="footer-social d-flex align-items-center">
-              <a href="#">
+              <a href="<?php the_field('facebook') ?>">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
+              <a href="<?php the_field('twitter') ?>">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#">
+              <a href="<?php the_field('dribbble') ?>">
                 <i class="fab fa-dribbble"></i>
               </a>
-              <a href="#">
+              <a href="<?php the_field('behance') ?>">
                 <i class="fab fa-behance"></i>
               </a>
             </div>

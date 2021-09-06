@@ -41,10 +41,10 @@
             ]);
             ?>
             <ul class="nav navbar-nav navbar-right navbar-social">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fab fa-behance"></i></a></li>
+              <li><a href="<?php the_field('facebook') ?>"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="<?php the_field('twitter') ?>"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="<?php the_field('dribbble') ?>"><i class="fab fa-dribbble"></i></a></li>
+              <li><a href="<?php the_field('behance') ?>"><i class="fab fa-behance"></i></a></li>
             </ul>
           </div>
         </div>
