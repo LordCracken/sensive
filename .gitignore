@@ -24,3 +24,6 @@ node_modules/
 
 # VSCode configs
 .vscode
+
+# source code
+layout
