@@ -2,6 +2,7 @@
 /*
 Template Name: Tours
 */
+__('Tours', 'sensive');
 ?>
 <?php
 $hero_content = '

@@ -2,6 +2,7 @@
 /*
 Template Name: Contact
 */
+__('Contact', 'sensive');
 ?>
 <?php
 $hero_content = '

@@ -2,6 +2,7 @@
 /*
 Template Name: Home
 */
+__('Home', 'sensive');
 ?>
 <?php
 $hero_content =  get_the_content() . "<h1>" . get_the_title() . "</h1>";
