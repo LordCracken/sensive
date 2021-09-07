@@ -2,7 +2,7 @@
 add_action('init', 'tours_init');
 function tours_init()
 {
-	register_post_type('book', array(
+	register_post_type('tour', array(
 		'labels'             => array(
 			'name'               => __('Tours', 'sensive'), // Основное название типа записи
 			'singular_name'      => __('Tour', 'sensive'), // отдельное название записи типа Book
