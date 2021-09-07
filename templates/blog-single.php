@@ -26,10 +26,9 @@ get_header(null, ['content' => $hero_content]) ?>
           <div class="user_details">
             <div class="float-left">
               <?php
-              global $post;
-              $tags = wp_get_post_tags($post->ID, array( 'fields' => 'names' ));
+              $tags = wp_get_post_tags($post->ID);
               foreach ($tags as $tag) : ?>
-                <a href="#"><?php echo $tag ?></a>
+                <a href="<?php echo get_tag_link($tag->term_id) ?>"><?php echo $tag->name ?></a>
               <? endforeach ?>
             </div>
             <div class="float-right mt-sm-0 mt-3">
