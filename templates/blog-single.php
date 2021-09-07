@@ -46,7 +46,10 @@ get_header(null, ['content' => $hero_content]) ?>
           </div>
           <?php the_content() ?>
           <div class="news_d_footer flex-column flex-sm-row">
-            <span class="mr-2"><i class="ti-themify-favicon"></i></span>06 Comments
+            <span class="mr-2"><i class="ti-themify-favicon"></i></span>
+            <?php
+            if (get_comments_number() < 10) echo '0';
+            comments_number() ?>
             <div class="news_socail ml-sm-auto mt-sm-0 mt-2">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
@@ -57,7 +60,9 @@ get_header(null, ['content' => $hero_content]) ?>
         </div>
 
         <div class="comments-area">
-          <h4>05 Comments</h4>
+          <h4><?php
+              if (get_comments_number() < 10) echo '0';
+              comments_number() ?></h4>
           <div class="comment-list">
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
