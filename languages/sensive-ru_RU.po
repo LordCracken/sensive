@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-07 16:18+0300\n"
+"POT-Creation-Date: 2021-09-07 17:11+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,19 +19,12 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: blog-single.php:6
-msgid "Single Post"
-msgstr "Пост"
+#: footer.php:77
+msgid "All rights reserved"
+msgstr "Все права защищены"
 
-#: contact.php:5
-msgid "Contact"
-msgstr "Контакты"
-
-#: front-page.php:5
-msgid "Home"
-msgstr "Главная"
-
-#: functions/tours-post-type.php:7 functions/tours-post-type.php:18 tours.php:5
+#: functions/tours-post-type.php:7 functions/tours-post-type.php:18
+#: templates/tours.php:5
 msgid "Tours"
 msgstr "Туры"
 
@@ -70,3 +63,19 @@ msgstr "Туры не найдены"
 #: functions/tours-post-type.php:16
 msgid "No tours in trash"
 msgstr "Нет туров в корзине"
+
+#: templates/blog-single.php:6
+msgid "Single Post"
+msgstr "Пост"
+
+#: templates/blog-single.php:13 templates/front-page.php:5
+msgid "Home"
+msgstr "Главная"
+
+#: templates/blog-single.php:14
+msgid "Blog"
+msgstr "Блог"
+
+#: templates/contact.php:5
+msgid "Contact"
+msgstr "Контакты"

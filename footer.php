@@ -53,16 +53,16 @@
             <h6>Follow Us</h6>
             <p>Let us be social</p>
             <div class="footer-social d-flex align-items-center">
-              <a href="<?php the_field('facebook') ?>">
+              <a href="<?php the_field('facebook', 17) ?>">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="<?php the_field('twitter') ?>">
+              <a href="<?php the_field('twitter', 17) ?>">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="<?php the_field('dribbble') ?>">
+              <a href="<?php the_field('dribbble', 17) ?>">
                 <i class="fab fa-dribbble"></i>
               </a>
-              <a href="<?php the_field('behance') ?>">
+              <a href="<?php the_field('behance', 17) ?>">
                 <i class="fab fa-behance"></i>
               </a>
             </div>
@@ -74,7 +74,7 @@
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           Copyright &copy;<script>
             document.write(new Date().getFullYear());
-          </script> All rights reserved | <?php the_field('copyright') ?>
+          </script> <?php echo __('All rights reserved', 'sensive') ?> | <?php the_field('copyright', 17) ?>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </p>
       </div>
