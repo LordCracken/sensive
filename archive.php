@@ -3,8 +3,8 @@ $hero_content = '
 <h1>Archive Page</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="' . get_home_url() . '">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Archive Page</li>
+    <li class="breadcrumb-item"><a href="' . get_home_url() . '">' . __('Home', 'sensive') . '</a></li>
+    <li class="breadcrumb-item active" aria-current="page">' . __('Archive Page', 'sensive') . '</li>
   </ol>
 </nav>';
 get_header(null, ['content' => $hero_content]) ?>
