@@ -53,10 +53,10 @@ get_header(null, ['content' => $hero_content]) ?>
             <span class="mr-2"><i class="ti-themify-favicon"></i></span>
             <?php comments_count() ?>
             <div class="news_socail ml-sm-auto mt-sm-0 mt-2">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-dribbble"></i></a>
-              <a href="#"><i class="fab fa-behance"></i></a>
+              <a href="<?php the_field('facebook', get_option('page_on_front')) ?>"><i class="fab fa-facebook-f"></i></a>
+              <a href="<?php the_field('twitter', get_option('page_on_front')) ?>"><i class="fab fa-twitter"></i></a>
+              <a href="<?php the_field('dribbble', get_option('page_on_front')) ?>"><i class="fab fa-dribbble"></i></a>
+              <a href="<?php the_field('behance', get_option('page_on_front')) ?>"><i class="fab fa-behance"></i></a>
             </div>
           </div>
         </div>
