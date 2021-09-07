@@ -1,4 +1,11 @@
 <?php
+/*
+Template Name: Single Post
+Template Post Type: post, tour
+*/
+__('Single Post', 'sensive');
+?>
+<?php
 $hero_content = '
 <h1>Blog details</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
