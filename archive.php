@@ -3,7 +3,7 @@ $hero_content = '
 <h1>Archive Page</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="' . get_home_url() . '">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">Archive Page</li>
   </ol>
 </nav>';

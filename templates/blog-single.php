@@ -10,8 +10,8 @@ $hero_content = '
 <h1>' . get_the_title() . '</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="' . get_permalink(17) . '">' . __('Home', 'sensive') . '</a></li>
-    <li class="breadcrumb-item"><a href="' . get_permalink(33) . '">' . __('Blog', 'sensive') . '</a></li>
+    <li class="breadcrumb-item"><a href="' . get_home_url() . '">' . __('Home', 'sensive') . '</a></li>
+    <li class="breadcrumb-item"><a href="' . get_permalink(get_option('page_for_posts')) . '">' . __('Blog', 'sensive') . '</a></li>
     <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
   </ol>
 </nav>';
