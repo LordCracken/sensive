@@ -23,10 +23,6 @@ get_header(null, ['content' => $hero_content]) ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="main_blog_details">
-          <!-- <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog4.png" alt="">
-          <a href="#">
-            <h4>Cartridge Is Better Than Ever <br /> A Discount Toner</h4>
-          </a> -->
           <div class="user_details">
             <div class="float-left">
               <?php
@@ -35,8 +31,6 @@ get_header(null, ['content' => $hero_content]) ?>
               foreach ($tags as $tag) : ?>
                 <a href="#"><?php echo $tag ?></a>
               <? endforeach ?>
-              <!-- <a href="#">Lifestyle</a>
-              <a href="#">Gadget</a> -->
             </div>
             <div class="float-right mt-sm-0 mt-3">
               <div class="media">
