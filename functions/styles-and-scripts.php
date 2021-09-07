@@ -9,6 +9,7 @@ function theme_styles_and_scripts()
   wp_enqueue_style('linericon', get_template_directory_uri() . '/vendors/linericon/style.css');
   wp_enqueue_style('owl-theme-default', get_template_directory_uri() . '/vendors/owl-carousel/owl.theme.default.min.css');
   wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/vendors/owl-carousel/owl.carousel.min.css');
+  wp_enqueue_style('themify', get_template_directory_uri() . '/vendors/themify-icons/themify-icons.css');
 
   wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
 
