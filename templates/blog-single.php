@@ -6,6 +6,11 @@ Template Post Type: post, tour
 __('Single Post', 'sensive');
 ?>
 <?php
+function comments_count()
+{
+  if (get_comments_number() < 10 && get_comments_number() > 0) echo '0';
+  comments_number();
+}
 $hero_content = '
 <h1>' . get_the_title() . '</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
@@ -46,9 +51,7 @@ get_header(null, ['content' => $hero_content]) ?>
           <?php the_content() ?>
           <div class="news_d_footer flex-column flex-sm-row">
             <span class="mr-2"><i class="ti-themify-favicon"></i></span>
-            <?php
-            if (get_comments_number() < 10) echo '0';
-            comments_number() ?>
+            <?php comments_count() ?>
             <div class="news_socail ml-sm-auto mt-sm-0 mt-2">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
@@ -59,9 +62,7 @@ get_header(null, ['content' => $hero_content]) ?>
         </div>
 
         <div class="comments-area">
-          <h4><?php
-              if (get_comments_number() < 10) echo '0';
-              comments_number() ?></h4>
+          <h4><?php comments_count() ?></h4>
           <div class="comment-list">
             <div class="single-comment justify-content-between d-flex">
               <div class="user justify-content-between d-flex">
