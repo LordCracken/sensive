@@ -53,16 +53,16 @@
             <h6>Follow Us</h6>
             <p>Let us be social</p>
             <div class="footer-social d-flex align-items-center">
-              <a href="<?php the_field('facebook', 17) ?>">
+              <a href="<?php the_field('facebook', get_option('page_on_front')) ?>">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="<?php the_field('twitter', 17) ?>">
+              <a href="<?php the_field('twitter', get_option('page_on_front')) ?>">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="<?php the_field('dribbble', 17) ?>">
+              <a href="<?php the_field('dribbble', get_option('page_on_front')) ?>">
                 <i class="fab fa-dribbble"></i>
               </a>
-              <a href="<?php the_field('behance', 17) ?>">
+              <a href="<?php the_field('behance', get_option('page_on_front')) ?>">
                 <i class="fab fa-behance"></i>
               </a>
             </div>
@@ -74,7 +74,7 @@
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           Copyright &copy;<script>
             document.write(new Date().getFullYear());
-          </script> <?php echo __('All rights reserved', 'sensive') ?> | <?php the_field('copyright', 17) ?>
+          </script> <?php echo __('All rights reserved', 'sensive') ?> | <?php the_field('copyright', get_option('page_on_front')) ?>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </p>
       </div>

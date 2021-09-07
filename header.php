@@ -43,10 +43,10 @@ $hero_background = 'style="background: url(' . get_the_post_thumbnail_url() . ')
             ]);
             ?>
             <ul class="nav navbar-nav navbar-right navbar-social">
-              <li><a href="<?php the_field('facebook', 17) ?>"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="<?php the_field('twitter', 17) ?>"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="<?php the_field('dribbble', 17) ?>"><i class="fab fa-dribbble"></i></a></li>
-              <li><a href="<?php the_field('behance', 17) ?>"><i class="fab fa-behance"></i></a></li>
+              <li><a href="<?php the_field('facebook', get_option('page_on_front')) ?>"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="<?php the_field('twitter', get_option('page_on_front')) ?>"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="<?php the_field('dribbble', get_option('page_on_front')) ?>"><i class="fab fa-dribbble"></i></a></li>
+              <li><a href="<?php the_field('behance', get_option('page_on_front')) ?>"><i class="fab fa-behance"></i></a></li>
             </ul>
           </div>
         </div>
