@@ -1,0 +1,14 @@
+blockquote {
+  background: #f2f3f7;
+  padding: 30px;
+  box-shadow: -20.84px 21.58px 30px 0px rgb(176 176 176 / 10%);
+  margin: 35px 0px;
+}
+
+blockquote p {
+  background: #ffffff;
+  margin-bottom: 0px !important;
+  border-left: 2px solid #415094;
+  padding: 30px;
+  font-style: italic;
+}

@@ -12,6 +12,7 @@ function theme_styles_and_scripts()
   wp_enqueue_style('themify', get_template_directory_uri() . '/vendors/themify-icons/themify-icons.css');
 
   wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+  wp_enqueue_style('additional', get_template_directory_uri() . '/css/additional.css');
 
   // scripts
   wp_deregister_script('jquery');
