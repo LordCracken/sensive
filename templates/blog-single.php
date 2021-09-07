@@ -23,10 +23,10 @@ get_header(null, ['content' => $hero_content]) ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="main_blog_details">
-          <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog4.png" alt="">
+          <!-- <img class="img-fluid" src="<? echo get_template_directory_uri() ?>/img/blog/blog4.png" alt="">
           <a href="#">
             <h4>Cartridge Is Better Than Ever <br /> A Discount Toner</h4>
-          </a>
+          </a> -->
           <div class="user_details">
             <div class="float-left">
               <a href="#">Lifestyle</a>
@@ -35,11 +35,11 @@ get_header(null, ['content' => $hero_content]) ?>
             <div class="float-right mt-sm-0 mt-3">
               <div class="media">
                 <div class="media-body">
-                  <h5>Mark wiens</h5>
-                  <p>12 Dec, 2017 11:21 am</p>
+                  <h5><?php the_author() ?></h5>
+                  <p><?php the_time('j M Y, H:i') ?></p>
                 </div>
                 <div class="d-flex">
-                  <img width="42" height="42" src="<? echo get_template_directory_uri() ?>/img/blog/user-img.png" alt="">
+                  <img width="42" height="42" src="<? echo get_avatar_url(get_the_author_email()) ?>" alt="">
                 </div>
               </div>
             </div>
