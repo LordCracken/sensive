@@ -29,8 +29,14 @@ get_header(null, ['content' => $hero_content]) ?>
           </a> -->
           <div class="user_details">
             <div class="float-left">
-              <a href="#">Lifestyle</a>
-              <a href="#">Gadget</a>
+              <?php
+              global $post;
+              $tags = wp_get_post_tags($post->ID, array( 'fields' => 'names' ));
+              foreach ($tags as $tag) : ?>
+                <a href="#"><?php echo $tag ?></a>
+              <? endforeach ?>
+              <!-- <a href="#">Lifestyle</a>
+              <a href="#">Gadget</a> -->
             </div>
             <div class="float-right mt-sm-0 mt-3">
               <div class="media">
