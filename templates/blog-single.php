@@ -7,11 +7,11 @@ __('Single Post', 'sensive');
 ?>
 <?php
 $hero_content = '
-<h1>Blog details</h1>
+<h1>' . get_the_title() . '</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+    <li class="breadcrumb-item"><a href="' . get_permalink(17) . '">Home</a></li>
+    <li class="breadcrumb-item"><a href="' . get_permalink(33) . '">Blog</a></li>
     <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
   </ol>
 </nav>';
