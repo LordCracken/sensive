@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sensive Blog - Home</title>
-  <link rel="icon" href="img/Fevicon.png" type="image/png">
 
   <?php wp_head() ?>
 </head>
