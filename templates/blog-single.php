@@ -39,7 +39,7 @@ get_header(null, ['content' => $hero_content]) ?>
                   <p><?php the_time('j M Y, H:i') ?></p>
                 </div>
                 <div class="d-flex">
-                  <img width="42" height="42" src="<? echo get_avatar_url(get_the_author_email()) ?>" alt="">
+                  <img width="42" height="42" src="<? echo get_avatar_url(get_the_author_meta('ID')) ?>" alt="">
                 </div>
               </div>
             </div>
