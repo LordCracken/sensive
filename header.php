@@ -58,7 +58,7 @@ $hero_background = 'style="background: url(' . get_the_post_thumbnail_url() . ')
     <!--================Hero Banner start =================-->
     <section class="mb-30px">
       <div class="container">
-        <div class="hero-banner" <?php echo has_post_thumbnail() ? $hero_background : null ?>>
+        <div class="hero-banner" <?php echo has_post_thumbnail() && is_single() ? $hero_background : null ?>>
           <div class=" hero-banner__content">
             <?php echo $args['content'] ?>
           </div>
