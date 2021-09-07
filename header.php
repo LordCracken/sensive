@@ -1,3 +1,6 @@
+<?php
+$hero_background = 'style="background: url(' . get_the_post_thumbnail_url() . ') 100% / cover;"'
+?>
 <!DOCTYPE html>
 <html <?php language_attributes() ?>>
 
@@ -55,8 +58,8 @@
     <!--================Hero Banner start =================-->
     <section class="mb-30px">
       <div class="container">
-        <div class="hero-banner">
-          <div class="hero-banner__content">
+        <div class="hero-banner" <?php echo has_post_thumbnail() ? $hero_background : null ?>>
+          <div class=" hero-banner__content">
             <?php echo $args['content'] ?>
           </div>
         </div>
