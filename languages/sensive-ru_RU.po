@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-07 13:55+0300\n"
+"POT-Creation-Date: 2021-09-07 16:18+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,7 +19,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: functions/tours-post-type.php:7 functions/tours-post-type.php:18
+#: blog-single.php:6
+msgid "Single Post"
+msgstr "Пост"
+
+#: contact.php:5
+msgid "Contact"
+msgstr "Контакты"
+
+#: front-page.php:5
+msgid "Home"
+msgstr "Главная"
+
+#: functions/tours-post-type.php:7 functions/tours-post-type.php:18 tours.php:5
 msgid "Tours"
 msgstr "Туры"
 
