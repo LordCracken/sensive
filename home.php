@@ -1,6 +1,6 @@
 <?php
 $hero_content = '
-<h1>' . get_the_title(33) . '</h1>
+<h1>' . get_the_title(get_option('page_for_posts', true)) . '</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="' . get_permalink(17) . '">Home</a></li>
