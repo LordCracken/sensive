@@ -8,68 +8,7 @@ __('Home', 'sensive');
 $hero_content =  get_the_content() . "<h1>" . get_the_title() . "</h1>";
 get_header(null, ['content' => $hero_content]) ?>
 
-<!--================ Blog slider start =================-->
-<section>
-  <div class="container">
-    <div class="owl-carousel owl-theme blog-slider">
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide1.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide2.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide3.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide1.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide2.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-      <div class="card blog__slide text-center">
-        <div class="blog__slide__img">
-          <img class="card-img rounded-0" src="<? echo get_template_directory_uri() ?>/img/blog/blog-slider/blog-slide3.png" alt="">
-        </div>
-        <div class="blog__slide__content">
-          <h3><a href="#">New york fashion week's continued the evolution</a></h3>
-          <p>2 days ago</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--================ Blog slider end =================-->
+<?php get_template_part('../template-parts/content', 'tours') ?>
 
 <!--================ Start Blog Post Area =================-->
 <section class="blog-post-area section-margin mt-4">
