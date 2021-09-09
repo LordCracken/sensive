@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-08 00:26+0300\n"
+"POT-Creation-Date: 2021-09-09 23:03+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,64 +19,72 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: archive.php:6 templates/blog-single.php:13 templates/front-page.php:5
-msgid "Home"
-msgstr "Главная"
-
-#: archive.php:7
+#: archive.php:3 archive.php:7
 msgid "Archive Page"
 msgstr "Архив"
+
+#: archive.php:6 index.php:5 templates/blog-single.php:18
+#: templates/front-page.php:5
+msgid "Home"
+msgstr "Главная"
 
 #: footer.php:77
 msgid "All rights reserved"
 msgstr "Все права защищены"
 
-#: functions/tours-post-type.php:7 functions/tours-post-type.php:18
-#: templates/tours.php:5
+#: functions/post-types.php:7 functions/post-types.php:18 templates/tours.php:5
 msgid "Tours"
 msgstr "Туры"
 
-#: functions/tours-post-type.php:8
+#: functions/post-types.php:8
 msgid "Tour"
 msgstr "Тур"
 
-#: functions/tours-post-type.php:9
+#: functions/post-types.php:9
 msgid "Add new"
 msgstr "Добавить новый"
 
-#: functions/tours-post-type.php:10
+#: functions/post-types.php:10
 msgid "Add new tour"
 msgstr "Добавить новый тур"
 
-#: functions/tours-post-type.php:11
+#: functions/post-types.php:11
 msgid "Edit tour"
 msgstr "Редактировать тур"
 
-#: functions/tours-post-type.php:12
+#: functions/post-types.php:12
 msgid "New tour"
 msgstr "Новый тур"
 
-#: functions/tours-post-type.php:13
+#: functions/post-types.php:13
 msgid "View tour"
 msgstr "Посмотреть тур"
 
-#: functions/tours-post-type.php:14
+#: functions/post-types.php:14
 msgid "Find tour"
 msgstr "Найти тур"
 
-#: functions/tours-post-type.php:15
+#: functions/post-types.php:15
 msgid "Tours not found"
 msgstr "Туры не найдены"
 
-#: functions/tours-post-type.php:16
+#: functions/post-types.php:16
 msgid "No tours in trash"
 msgstr "Нет туров в корзине"
+
+#: template-parts/content-tours.php:21
+msgid " ago"
+msgstr " назад"
+
+#: template-parts/content-tours.php:28
+msgid "No tours yet."
+msgstr "Туров ещё нет."
 
 #: templates/blog-single.php:6
 msgid "Single Post"
 msgstr "Пост"
 
-#: templates/blog-single.php:14
+#: templates/blog-single.php:19
 msgid "Blog"
 msgstr "Блог"
 

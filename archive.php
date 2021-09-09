@@ -1,6 +1,6 @@
 <?php
 $hero_content = '
-<h1>Archive Page</h1>
+<h1>' . __('Archive Page', 'sensive') . '</h1>
 <nav aria-label="breadcrumb" class="banner-breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="' . get_home_url() . '">' . __('Home', 'sensive') . '</a></li>
