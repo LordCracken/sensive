@@ -17,6 +17,12 @@ blockquote p {
   margin: 30px 0 !important;
 }
 
+.post-img {
+  width: 100%;
+  max-height: 389px;
+  object-fit: cover;
+}
+
 .card-img {
   height: 190px;
   object-fit: cover;

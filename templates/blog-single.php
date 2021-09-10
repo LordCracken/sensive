@@ -61,7 +61,7 @@ get_header(null, ['content' => $hero_content]) ?>
           </div>
         </div>
 
-        <div class="comments-area">
+        <div class="comments-area" id="comments">
           <h4><?php comments_count() ?></h4>
           <div class="comment-list">
             <div class="single-comment justify-content-between d-flex">
