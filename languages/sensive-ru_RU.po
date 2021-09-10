@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-09 23:03+0300\n"
+"POT-Creation-Date: 2021-09-10 02:01+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -23,8 +23,7 @@ msgstr ""
 msgid "Archive Page"
 msgstr "Архив"
 
-#: archive.php:6 index.php:5 templates/blog-single.php:18
-#: templates/front-page.php:5
+#: archive.php:6 templates/blog-single.php:18 templates/front-page.php:5
 msgid "Home"
 msgstr "Главная"
 
@@ -71,6 +70,22 @@ msgstr "Туры не найдены"
 #: functions/post-types.php:16
 msgid "No tours in trash"
 msgstr "Нет туров в корзине"
+
+#: template-parts/content-posts.php:31
+msgid "Category:"
+msgstr "Категория:"
+
+#: template-parts/content-posts.php:32
+msgid "Tag:"
+msgstr "Тег:"
+
+#: template-parts/content-posts.php:34
+msgid "Read More"
+msgstr "Читать больше"
+
+#: template-parts/content-posts.php:41
+msgid "No posts yet."
+msgstr "Записей ещё нет."
 
 #: template-parts/content-tours.php:21
 msgid " ago"
