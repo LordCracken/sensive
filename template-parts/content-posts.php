@@ -42,7 +42,7 @@
                 <a href="<?php echo get_the_permalink() ?>">
                   <h3><?php the_title() ?></h3>
                 </a>
-                <?php if ($args['type'] === 'post') : ?>
+                <?php if ($args['taxes']) : ?>
                   <p class="tag-list-inline"><?php echo __('Category:', 'sensive') ?> <?php output_info('category') ?></p>
                   <p class="tag-list-inline"><?php echo __('Tag:', 'sensive') ?> <?php output_info('post_tag') ?></p>
                 <?php endif ?>

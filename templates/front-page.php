@@ -10,7 +10,7 @@ get_header(null, ['content' => $hero_content]) ?>
 
 <?php
 get_template_part('template-parts/content', 'tours');
-get_template_part('template-parts/content', 'posts', ['count' => 5, 'type' => 'post']);
+get_template_part('template-parts/content', 'posts', ['count' => 5, 'type' => 'post', 'taxes' => true]);
 ?>
 
 </main>
