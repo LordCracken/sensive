@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-10 02:01+0300\n"
+"POT-Creation-Date: 2021-09-10 10:01+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,13 +19,18 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
+#: 404.php:6 archive.php:6 templates/blog-single.php:18
+#: templates/front-page.php:5
+msgid "Home"
+msgstr "Главная"
+
+#: 404.php:7
+msgid "404 Page not found"
+msgstr "404 Страница не найдена"
+
 #: archive.php:3 archive.php:7
 msgid "Archive Page"
 msgstr "Архив"
-
-#: archive.php:6 templates/blog-single.php:18 templates/front-page.php:5
-msgid "Home"
-msgstr "Главная"
 
 #: footer.php:77
 msgid "All rights reserved"
@@ -71,19 +76,23 @@ msgstr "Туры не найдены"
 msgid "No tours in trash"
 msgstr "Нет туров в корзине"
 
-#: template-parts/content-posts.php:31
+#: home.php:7
+msgid "Blog Page"
+msgstr "Блог"
+
+#: template-parts/content-posts.php:46
 msgid "Category:"
 msgstr "Категория:"
 
-#: template-parts/content-posts.php:32
+#: template-parts/content-posts.php:47
 msgid "Tag:"
 msgstr "Тег:"
 
-#: template-parts/content-posts.php:34
+#: template-parts/content-posts.php:50
 msgid "Read More"
 msgstr "Читать больше"
 
-#: template-parts/content-posts.php:41
+#: template-parts/content-posts.php:57
 msgid "No posts yet."
 msgstr "Записей ещё нет."
 
@@ -103,6 +112,18 @@ msgstr "Пост"
 msgid "Blog"
 msgstr "Блог"
 
+#: templates/blog-single.php:20
+msgid "Blog Details"
+msgstr "Запись блога"
+
 #: templates/contact.php:5
 msgid "Contact"
 msgstr "Контакты"
+
+#: templates/contact.php:13
+msgid "Contact Us"
+msgstr "Связаться"
+
+#: templates/tours.php:13
+msgid "Tours Page"
+msgstr "Туры"

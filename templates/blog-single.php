@@ -17,7 +17,7 @@ $hero_content = '
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="' . get_home_url() . '">' . __('Home', 'sensive') . '</a></li>
     <li class="breadcrumb-item"><a href="' . get_permalink(get_option('page_for_posts')) . '">' . __('Blog', 'sensive') . '</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
+    <li class="breadcrumb-item active" aria-current="page">' . __('Blog Details', 'sensive') . '</li>
   </ol>
 </nav>';
 get_header(null, ['content' => $hero_content]) ?>
