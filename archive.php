@@ -43,7 +43,7 @@ get_header(null, ['content' => $hero_content]) ?>
                       <h3><?php the_title() ?></h3>
                     </a>
                     <p><?php the_excerpt() ?></p>
-                    <a class="button" href="#">Read More <i class="ti-arrow-right"></i></a>
+                    <a class="button" href="#"><?php echo  __('Read More', 'sensive') ?> <i class="ti-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
