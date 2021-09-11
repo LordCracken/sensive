@@ -8,5 +8,6 @@ require('functions/widgets.php');
 require('widgets/search-widget.php');
 require('widgets/category-widget.php');
 require('widgets/popular-posts-widget.php');
+require('widgets/tags-widget.php');
 
 remove_filter('the_content', 'wpautop');
