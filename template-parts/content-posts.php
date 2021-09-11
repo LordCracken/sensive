@@ -88,7 +88,7 @@
         <?php endif ?>
       </div>
 
-      <?php dynamic_sidebar('sidebar_blog') ?>
+      <?php dynamic_sidebar($args['sidebar_type']) ?>
       
     </div>
   </div>

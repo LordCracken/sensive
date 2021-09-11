@@ -9,6 +9,6 @@ $hero_content = '
 </nav>';
 get_header(null, ['content' => $hero_content]) ?>
 
-<?php get_template_part('template-parts/content', 'posts', ['count' => -1, 'type' => 'post', 'pagination' => true, 'taxes' => true]); ?>
+<?php get_template_part('template-parts/content', 'posts', ['count' => -1, 'type' => 'post', 'pagination' => true, 'taxes' => true, 'sidebar_type' => 'sidebar_blog']); ?>
 
 <? get_footer() ?>
