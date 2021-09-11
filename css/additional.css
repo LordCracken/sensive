@@ -28,6 +28,24 @@ blockquote p {
   object-fit: cover;
 }
 
+.aspect-ratio-box {
+  position: relative;
+}
+
+.aspect-ratio-box::after {
+  display: block;
+  content: "";
+  padding-bottom: 46%;
+}
+
+.aspect-ratio-box .card-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100%;
+}
+
 @media (min-width: 1200px) {
   .card-img {
     height: 230px;
