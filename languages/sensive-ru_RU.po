@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-11 19:44+0300\n"
+"POT-Creation-Date: 2021-09-12 00:41+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -48,19 +48,23 @@ msgstr "Архив по дате: "
 msgid "Archive Page"
 msgstr "Архив"
 
-#: archive.php:38 template-parts/content-posts.php:38
+#: archive.php:51 search.php:27 template-parts/content-posts.php:46
 msgid "Empty"
 msgstr "Пусто"
 
-#: archive.php:38
+#: archive.php:51 search.php:27
 msgid "1 Comment"
 msgstr "1 коммент."
 
-#: archive.php:38
+#: archive.php:51 search.php:27
 msgid "% Comments"
 msgstr "% коммент."
 
-#: archive.php:51
+#: archive.php:59 search.php:35 template-parts/content-posts.php:58
+msgid "Read More"
+msgstr "Читать больше"
+
+#: archive.php:64 search.php:40
 msgid "No posts."
 msgstr "Записей нет."
 
@@ -124,19 +128,19 @@ msgstr "Сайдбар туров"
 msgid "Blog Page"
 msgstr "Блог"
 
-#: template-parts/content-posts.php:46
+#: search.php:2
+msgid "Search: "
+msgstr "Поиск: "
+
+#: template-parts/content-posts.php:54
 msgid "Category:"
 msgstr "Категория:"
 
-#: template-parts/content-posts.php:47
+#: template-parts/content-posts.php:55
 msgid "Tag:"
 msgstr "Тег:"
 
-#: template-parts/content-posts.php:50
-msgid "Read More"
-msgstr "Читать больше"
-
-#: template-parts/content-posts.php:57 widgets/popular-posts-widget.php:65
+#: template-parts/content-posts.php:65 widgets/popular-posts-widget.php:65
 msgid "No posts yet."
 msgstr "Записей ещё нет."
 
