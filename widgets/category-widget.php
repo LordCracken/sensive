@@ -29,11 +29,6 @@ class sensive_category extends WP_Widget
 
   public function widget($args, $instance)
   {
-    $args = [
-      'title_li'   => '',
-      'show_count' => 1
-    ];
-
     $category_list = '';
 
     foreach (get_categories(['hide_empty'   => 1]) as $category) {
