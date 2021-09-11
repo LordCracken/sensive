@@ -28,7 +28,20 @@ get_header(null, ['content' => $hero_content]) ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="row">
-          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <?php
+          $current = absint(
+            max(
+              1,
+              get_query_var('paged') ? get_query_var('paged') : get_query_var('page')
+            )
+          );
+
+          $query = new WP_Query([
+            'posts_per_page' => 8,
+            'post_type'      => 'post',
+            'paged'          => $current,
+          ]);
+          if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
               <div class="col-md-6">
                 <div class="single-recent-blog-post card-view">
                   <div class="thumb">
@@ -53,26 +66,30 @@ get_header(null, ['content' => $hero_content]) ?>
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <nav class="blog-pagination justify-content-center d-flex">
-              <ul class="pagination">
-                <li class="page-item">
-                  <a href="#" class="page-link" aria-label="Previous">
-                    <span aria-hidden="true">
-                      <i class="ti-angle-left"></i>
-                    </span>
-                  </a>
-                </li>
-                <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                <li class="page-item"><a href="#" class="page-link">2</a></li>
-                <li class="page-item">
-                  <a href="#" class="page-link" aria-label="Next">
-                    <span aria-hidden="true">
-                      <i class="ti-angle-right"></i>
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <?php
+            global $wp_query;
+            $restore_wp_query = $wp_query;
+            $wp_query         = $query;
+            the_posts_pagination(array(
+              'before_page_number' => '<li class="page-item"><span class="page-link">',
+              'after_page_number'  => '</span></li>',
+              'prev_text'          => '<li class="page-item">
+                                          <span class="page-link" aria-label="Previous">
+                                            <span aria-hidden="true">
+                                              <i class="ti-angle-left"></i>
+                                            </span>
+                                          </span>
+                                        </li>',
+              'next_text'          => '<li class="page-item">
+                                          <span class="page-link" aria-label="Next">
+                                            <span aria-hidden="true">
+                                              <i class="ti-angle-right"></i>
+                                            </span>
+                                          </span>
+                                        </li>'
+            ));
+            $wp_query = $restore_wp_query;
+            ?>
           </div>
         </div>
       </div>
