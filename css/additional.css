@@ -46,6 +46,12 @@ blockquote p {
   height: 100%;
 }
 
+.current .page-link{
+  background: transparent;
+  border-color: #222;
+  color: #ff9907;
+}
+
 @media (min-width: 1200px) {
   .card-img {
     height: 230px;

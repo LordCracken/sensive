@@ -17,9 +17,17 @@
           }
         }
 
+        $current = absint(
+          max(
+            1,
+            get_query_var('paged') ? get_query_var('paged') : get_query_var('page')
+          )
+        );
+
         $query = new WP_Query([
           'posts_per_page' => $args['count'],
-          'post_type'      => $args['type']
+          'post_type'      => $args['type'],
+          'paged'          => $current,
         ]);
 
         if ($query->have_posts()) {
@@ -63,33 +71,37 @@
         <?php if ($args['pagination']) : ?>
           <div class="row">
             <div class="col-lg-12">
-              <nav class="blog-pagination justify-content-center d-flex">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a href="#" class="page-link" aria-label="Previous">
-                      <span aria-hidden="true">
-                        <i class="ti-angle-left"></i>
-                      </span>
-                    </a>
-                  </li>
-                  <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                  <li class="page-item"><a href="#" class="page-link">2</a></li>
-                  <li class="page-item">
-                    <a href="#" class="page-link" aria-label="Next">
-                      <span aria-hidden="true">
-                        <i class="ti-angle-right"></i>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              <?php
+              global $wp_query;
+              $restore_wp_query = $wp_query;
+              $wp_query         = $query;
+              the_posts_pagination(array(
+                'before_page_number' => '<li class="page-item"><span class="page-link">',
+                'after_page_number'  => '</span></li>',
+                'prev_text'          => '<li class="page-item">
+                                          <span class="page-link" aria-label="Previous">
+                                            <span aria-hidden="true">
+                                              <i class="ti-angle-left"></i>
+                                            </span>
+                                          </span>
+                                        </li>',
+                'next_text'          => '<li class="page-item">
+                                          <span class="page-link" aria-label="Next">
+                                            <span aria-hidden="true">
+                                              <i class="ti-angle-right"></i>
+                                            </span>
+                                          </span>
+                                        </li>'
+              ));
+              $wp_query = $restore_wp_query;
+              ?>
             </div>
           </div>
         <?php endif ?>
       </div>
 
       <?php dynamic_sidebar($args['sidebar_type']) ?>
-      
+
     </div>
   </div>
 </section>

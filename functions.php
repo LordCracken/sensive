@@ -4,6 +4,7 @@ require('functions/theme-support.php');
 require('functions/menus.php');
 require('functions/post-types.php');
 require('functions/widgets.php');
+require('functions/pagination.php');
 
 require('widgets/search-widget.php');
 require('widgets/category-widget.php');
