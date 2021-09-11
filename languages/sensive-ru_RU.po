@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-11 19:26+0300\n"
+"POT-Creation-Date: 2021-09-11 19:44+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -48,17 +48,21 @@ msgstr "Архив по дате: "
 msgid "Archive Page"
 msgstr "Архив"
 
-#: archive.php:65
+#: archive.php:38 template-parts/content-posts.php:38
 msgid "Empty"
 msgstr "Пусто"
 
-#: archive.php:65
+#: archive.php:38
 msgid "1 Comment"
 msgstr "1 коммент."
 
-#: archive.php:65
+#: archive.php:38
 msgid "% Comments"
 msgstr "% коммент."
+
+#: archive.php:51
+msgid "No posts."
+msgstr "Записей нет."
 
 #: footer.php:77
 msgid "All rights reserved"
