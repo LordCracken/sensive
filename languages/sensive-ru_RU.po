@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-11 17:11+0300\n"
+"POT-Creation-Date: 2021-09-11 19:26+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: 404.php:6 archive.php:6 home.php:6 templates/blog-single.php:28
+#: 404.php:6 archive.php:19 home.php:6 templates/blog-single.php:28
 #: templates/contact.php:12 templates/front-page.php:5 templates/tours.php:12
 msgid "Home"
 msgstr "Главная"
@@ -28,9 +28,37 @@ msgstr "Главная"
 msgid "404 Page not found"
 msgstr "404 Страница не найдена"
 
-#: archive.php:3 archive.php:7
+#: archive.php:3
+msgid "Rubric: "
+msgstr "Категория: "
+
+#: archive.php:6
+msgid "Posts by tag: "
+msgstr "Записи по тегу: "
+
+#: archive.php:9
+msgid "Author's notes: "
+msgstr "Записи автора: "
+
+#: archive.php:12
+msgid "Archive by date: "
+msgstr "Архив по дате: "
+
+#: archive.php:20
 msgid "Archive Page"
 msgstr "Архив"
+
+#: archive.php:65
+msgid "Empty"
+msgstr "Пусто"
+
+#: archive.php:65
+msgid "1 Comment"
+msgstr "1 коммент."
+
+#: archive.php:65
+msgid "% Comments"
+msgstr "% коммент."
 
 #: footer.php:77
 msgid "All rights reserved"
@@ -120,7 +148,7 @@ msgstr "Туров ещё нет."
 msgid "Single Post"
 msgstr "Пост"
 
-#: templates/blog-single.php:8 templates/blog-single.php:30
+#: templates/blog-single.php:8
 msgid "Blog Details"
 msgstr "Запись блога"
 
