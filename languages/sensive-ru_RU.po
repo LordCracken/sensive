@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-11 16:49+0300\n"
+"POT-Creation-Date: 2021-09-11 17:11+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: 404.php:6 archive.php:6 home.php:6 templates/blog-single.php:18
+#: 404.php:6 archive.php:6 home.php:6 templates/blog-single.php:28
 #: templates/contact.php:12 templates/front-page.php:5 templates/tours.php:12
 msgid "Home"
 msgstr "Главная"
@@ -77,8 +77,16 @@ msgid "No tours in trash"
 msgstr "Нет туров в корзине"
 
 #: functions/widgets.php:5
+msgid "Home Sidebar"
+msgstr "Сайдбар главной страницы"
+
+#: functions/widgets.php:16
 msgid "Blog Sidebar"
 msgstr "Сайдбар блога"
+
+#: functions/widgets.php:27
+msgid "Tours Sidebar"
+msgstr "Сайдбар туров"
 
 #: home.php:7
 msgid "Blog Page"
@@ -112,13 +120,17 @@ msgstr "Туров ещё нет."
 msgid "Single Post"
 msgstr "Пост"
 
-#: templates/blog-single.php:19
-msgid "Blog"
-msgstr "Блог"
-
-#: templates/blog-single.php:20
+#: templates/blog-single.php:8 templates/blog-single.php:30
 msgid "Blog Details"
 msgstr "Запись блога"
+
+#: templates/blog-single.php:14
+msgid "Tour Details"
+msgstr "Запись тура"
+
+#: templates/blog-single.php:29
+msgid "Blog"
+msgstr "Блог"
 
 #: templates/contact.php:5
 msgid "Contact"
