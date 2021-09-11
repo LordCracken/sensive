@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-10 10:01+0300\n"
+"POT-Creation-Date: 2021-09-11 16:49+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -19,8 +19,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: 404.php:6 archive.php:6 templates/blog-single.php:18
-#: templates/front-page.php:5
+#: 404.php:6 archive.php:6 home.php:6 templates/blog-single.php:18
+#: templates/contact.php:12 templates/front-page.php:5 templates/tours.php:12
 msgid "Home"
 msgstr "Главная"
 
@@ -76,6 +76,10 @@ msgstr "Туры не найдены"
 msgid "No tours in trash"
 msgstr "Нет туров в корзине"
 
+#: functions/widgets.php:5
+msgid "Blog Sidebar"
+msgstr "Сайдбар блога"
+
 #: home.php:7
 msgid "Blog Page"
 msgstr "Блог"
@@ -92,7 +96,7 @@ msgstr "Тег:"
 msgid "Read More"
 msgstr "Читать больше"
 
-#: template-parts/content-posts.php:57
+#: template-parts/content-posts.php:57 widgets/popular-posts-widget.php:65
 msgid "No posts yet."
 msgstr "Записей ещё нет."
 
@@ -127,3 +131,51 @@ msgstr "Связаться"
 #: templates/tours.php:13
 msgid "Tours Page"
 msgstr "Туры"
+
+#: widgets/category-widget.php:21
+msgid "Sensive Category"
+msgstr "Sensive: Категории"
+
+#: widgets/category-widget.php:24
+msgid "Category widget for Sensive theme"
+msgstr "Виджет категорий для темы Sensive"
+
+#: widgets/category-widget.php:46
+msgid "Category"
+msgstr "Категории"
+
+#: widgets/popular-posts-widget.php:21
+msgid "Sensive Popular Posts"
+msgstr "Sensive: Популярные посты"
+
+#: widgets/popular-posts-widget.php:24
+msgid "Popular posts widget for Sensive theme"
+msgstr "Виджет популярных постов для темы Sensive"
+
+#: widgets/popular-posts-widget.php:72
+msgid "Popular Post"
+msgstr "Популярные посты"
+
+#: widgets/search-widget.php:21
+msgid "Sensive Search"
+msgstr "Sensive: Поиск"
+
+#: widgets/search-widget.php:24
+msgid "Search widget for Sensive theme"
+msgstr "Виджет поиска для темы Sensive"
+
+#: widgets/search-widget.php:36
+msgid "Search"
+msgstr "Поиск"
+
+#: widgets/tags-widget.php:21
+msgid "Sensive Tags"
+msgstr "Sensive: Теги"
+
+#: widgets/tags-widget.php:24
+msgid "Tags widget for Sensive theme"
+msgstr "Виджет тегов для темы Sensive"
+
+#: widgets/tags-widget.php:42
+msgid "Tags"
+msgstr "Теги"
