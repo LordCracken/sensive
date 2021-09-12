@@ -46,10 +46,14 @@ blockquote p {
   height: 100%;
 }
 
-.current .page-link{
+.current .page-link {
   background: transparent;
   border-color: #222;
   color: #ff9907;
+}
+
+div.wpcf7 .ajax-loader {
+  display: none;
 }
 
 @media (min-width: 1200px) {

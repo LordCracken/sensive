@@ -12,3 +12,20 @@ require('widgets/popular-posts-widget.php');
 require('widgets/tags-widget.php');
 
 remove_filter('the_content', 'wpautop');
+
+add_action('phpmailer_init', 'my_phpmailer_example');
+function my_phpmailer_example($phpmailer)
+{
+
+  $phpmailer->isSMTP();
+  $phpmailer->Host = 'smtp.timeweb.ru';
+  $phpmailer->SMTPAuth = true; // Force it to use Username and Password to authenticate
+  $phpmailer->Port = 25;
+  $phpmailer->Username = 'info@vladislav-yakimovskiy.ru';
+  $phpmailer->Password = 'khB3c28D';
+
+  // Additional settings…
+  //$phpmailer->SMTPSecure = "tls"; // Choose SSL or TLS, if necessary for your server
+  $phpmailer->From = "info@vladislav-yakimovskiy.ru";
+  $phpmailer->FromName = "Sensive";
+}

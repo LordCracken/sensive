@@ -12,7 +12,14 @@ $hero_content = '
     <li class="breadcrumb-item"><a href="' . get_home_url() . '">' . __('Home', 'sensive') . '</a></li>
     <li class="breadcrumb-item active" aria-current="page">' . __('Contact Us', 'sensive') . '</li>
   </ol>
+
 </nav>';
+$address = get_field('address');
+$phone = get_field('phone');
+$mail = get_field('mail');
+
+$phone_link_number = preg_replace('![^0-9]+!', '', $phone['number']);
+
 get_header(null, ['content' => $hero_content]) ?>
 
 <!-- ================ contact section start ================= -->
@@ -64,49 +71,27 @@ get_header(null, ['content' => $hero_content]) ?>
         <div class="media contact-info">
           <span class="contact-info__icon"><i class="ti-home"></i></span>
           <div class="media-body">
-            <h3>California United States</h3>
-            <p>Santa monica bullevard</p>
+            <h3><?php echo $address['first_address'] ?></h3>
+            <p><?php echo $address['second_address'] ?></p>
           </div>
         </div>
         <div class="media contact-info">
           <span class="contact-info__icon"><i class="ti-headphone"></i></span>
           <div class="media-body">
-            <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-            <p>Mon to Fri 9am to 6pm</p>
+            <h3><a href="tel:<?php echo $phone_link_number ?>"><?php echo $phone['number'] ?></a></h3>
+            <p><?php echo $phone['time'] ?></p>
           </div>
         </div>
         <div class="media contact-info">
           <span class="contact-info__icon"><i class="ti-email"></i></span>
           <div class="media-body">
-            <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-            <p>Send us your query anytime!</p>
+            <h3><a href="mailto:<?php echo $mail['email'] ?>"><?php echo $mail['email'] ?></a></h3>
+            <p><?php echo $mail['message'] ?></p>
           </div>
         </div>
       </div>
       <div class="col-md-8 col-lg-9">
-        <form action="#/" class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="form-group">
-                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
-              </div>
-              <div class="form-group">
-                <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
-              </div>
-              <div class="form-group">
-                <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="form-group">
-                <textarea class="form-control different-control w-100" name="message" id="message" cols="30" rows="5" placeholder="Enter Message"></textarea>
-              </div>
-            </div>
-          </div>
-          <div class="form-group text-center text-md-right mt-3">
-            <button type="submit" class="button button--active button-contactForm">Send Message</button>
-          </div>
-        </form>
+        <?php echo do_shortcode('[contact-form-7 id="124" html_class="form-contact contact_form" title="Виджет формы подписки"]') ?>
       </div>
     </div>
   </div>
