@@ -33,13 +33,12 @@ class sensive_about extends WP_Widget
     $text = apply_filters('widget_title', $instance['text']);
 
     $about_info =
-      '<div class="row">
-        <div class="col-lg-3  col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h6>' . $title . '</h6>
-            <p>' . $text .  '</p>
-          </div>
-        </div>';
+      '<div class="col-lg-3  col-md-6 col-sm-6">
+        <div class="single-footer-widget">
+          <h6>' . $title . '</h6>
+          <p>' . $text .  '</p>
+        </div>
+      </div>';
 
     echo $about_info;
   }

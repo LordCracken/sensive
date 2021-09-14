@@ -18,10 +18,10 @@ class sensive_social extends WP_Widget
       'sensive_social',
 
       // Widget name will appear in UI
-      __('Sensive social', 'sensive'),
+      __('Sensive Social', 'sensive'),
 
       // Widget description
-      array('description' => __('social widget for Sensive theme', 'sensive'),)
+      array('description' => __('Social widget for Sensive theme', 'sensive'),)
     );
   }
 
