@@ -13,6 +13,7 @@ require('widgets/popular-posts-widget.php');
 require('widgets/tags-widget.php');
 require('widgets/about-us.php');
 require('widgets/newsletter.php');
+require('widgets/social-media.php');
 
 remove_filter('the_content', 'wpautop');
 
