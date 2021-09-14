@@ -50,28 +50,29 @@ class sensive_newsletter extends WP_Widget
             <div class="info"></div>
           </div>
         </div>
-      </form>
-    </div><?php
+    </form>
+    </div>
+  <?php
 
-        }
+  }
 
 
-        // Сохранение настроек виджета (очистка)
-        function update($new_instance, $old_instance)
-        {
-          $instance = array();
-          $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
-          $instance['text'] = (!empty($new_instance['text'])) ? strip_tags($new_instance['text']) : '';
+  // Сохранение настроек виджета (очистка)
+  function update($new_instance, $old_instance)
+  {
+    $instance = array();
+    $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
+    $instance['text'] = (!empty($new_instance['text'])) ? strip_tags($new_instance['text']) : '';
 
-          return $instance;
-        }
+    return $instance;
+  }
 
-        function form($instance)
-        {
-          $title = @$instance['title'] ?: 'О нас';
-          $text = @$instance['text'] ?: 'Напишите о себе';
+  function form($instance)
+  {
+    $title = @$instance['title'] ?: 'Рассылка';
+    $text = @$instance['text'] ?: 'Подпишитесь на нас!';
 
-          ?>
+  ?>
     <p>
       <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
       <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>">
@@ -81,5 +82,5 @@ class sensive_newsletter extends WP_Widget
       <input class="widefat" id="<?php echo $this->get_field_id('text'); ?>" name="<?php echo $this->get_field_name('text'); ?>" type="text" value="<?php echo esc_attr($text); ?>">
     </p>
 <?php
-        }
-      } // Class sensive_search ends here
+  }
+} // Class sensive_search ends here
