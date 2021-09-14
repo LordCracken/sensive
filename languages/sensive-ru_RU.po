@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-14 14:31+0300\n"
+"POT-Creation-Date: 2021-09-14 14:41+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -89,7 +89,7 @@ msgstr "Отменить"
 msgid "Post comment"
 msgstr "Отправить"
 
-#: footer.php:78
+#: footer.php:10
 msgid "All rights reserved"
 msgstr "Все права защищены"
 
@@ -270,12 +270,12 @@ msgstr "Sensive: О нас"
 msgid "About us widget for Sensive theme"
 msgstr "Виджет \"О нас\" для темы Sensive"
 
-#: widgets/about-us.php:65 widgets/feed.php:69 widgets/newsletter.php:77
+#: widgets/about-us.php:64 widgets/feed.php:69 widgets/newsletter.php:79
 #: widgets/social-media.php:77
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: widgets/about-us.php:69 widgets/newsletter.php:81
+#: widgets/about-us.php:68 widgets/newsletter.php:83
 #: widgets/social-media.php:81
 msgid "Text:"
 msgstr "Текст:"
@@ -303,6 +303,10 @@ msgstr "Виджет \"Лента\" для темы Sensive"
 #: widgets/newsletter.php:21
 msgid "Sensive Newsletter"
 msgstr "Sensive: Подписка"
+
+#: widgets/newsletter.php:32
+msgid "Enter Email"
+msgstr "Укажите Email"
 
 #: widgets/popular-posts-widget.php:21
 msgid "Sensive Popular Posts"

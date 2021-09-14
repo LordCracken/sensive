@@ -29,6 +29,8 @@ class sensive_newsletter extends WP_Widget
 
   public function widget($args, $instance)
   {
+    $email_placeholder = __('Enter Email', 'sensive');
+
     $title = apply_filters('widget_title', $instance['title']);
     $text = apply_filters('widget_title', $instance['text']); ?>
 
@@ -40,7 +42,7 @@ class sensive_newsletter extends WP_Widget
 
           <div class="form-inline">
             <div class="d-flex flex-row">
-              <input class="form-control" name="email" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+              <input class="form-control" name="email" placeholder="<?php echo $email_placeholder ?>" onfocus="this.placeholder = ''" onblur="this.placeholder = '<?php echo $email_placeholder ?> '" required="" type="email">
               <input type="hidden" name="campaign_token" value="on2Td" />
               <button type="submit" class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
               <div style="position: absolute; left: -5000px;">
