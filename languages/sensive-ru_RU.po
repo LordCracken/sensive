@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-14 11:52+0300\n"
+"POT-Creation-Date: 2021-09-14 14:31+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -262,6 +262,24 @@ msgstr "Связаться"
 msgid "Tours Page"
 msgstr "Туры"
 
+#: widgets/about-us.php:21
+msgid "Sensive About Us"
+msgstr "Sensive: О нас"
+
+#: widgets/about-us.php:24 widgets/newsletter.php:24
+msgid "About us widget for Sensive theme"
+msgstr "Виджет \"О нас\" для темы Sensive"
+
+#: widgets/about-us.php:65 widgets/feed.php:69 widgets/newsletter.php:77
+#: widgets/social-media.php:77
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widgets/about-us.php:69 widgets/newsletter.php:81
+#: widgets/social-media.php:81
+msgid "Text:"
+msgstr "Текст:"
+
 #: widgets/category-widget.php:21
 msgid "Sensive Category"
 msgstr "Sensive: Категории"
@@ -273,6 +291,18 @@ msgstr "Виджет категорий для темы Sensive"
 #: widgets/category-widget.php:46
 msgid "Category"
 msgstr "Категории"
+
+#: widgets/feed.php:21
+msgid "Sensive Feed"
+msgstr "Sensive: Лента"
+
+#: widgets/feed.php:24
+msgid "Feed widget for Sensive theme"
+msgstr "Виджет \"Лента\" для темы Sensive"
+
+#: widgets/newsletter.php:21
+msgid "Sensive Newsletter"
+msgstr "Sensive: Подписка"
 
 #: widgets/popular-posts-widget.php:21
 msgid "Sensive Popular Posts"
@@ -294,17 +324,17 @@ msgstr "Sensive: Поиск"
 msgid "Search widget for Sensive theme"
 msgstr "Виджет поиска для темы Sensive"
 
-#: widgets/sensive-about.php:21
-msgid "Sensive About Us"
-msgstr "Sensive: О нас"
-
-#: widgets/sensive-about.php:24
-msgid "About us widget for Sensive theme"
-msgstr "Виджет \"О нас\" для темы Sensive"
-
-#: widgets/sensive-about.php:36
+#: widgets/search-widget.php:36
 msgid "Search"
 msgstr "Поиск"
+
+#: widgets/social-media.php:21
+msgid "Sensive Social"
+msgstr "Sensive: Соц. сети"
+
+#: widgets/social-media.php:24
+msgid "Social widget for Sensive theme"
+msgstr "Виджет соц. сетей для темы Sensive"
 
 #: widgets/tags-widget.php:21
 msgid "Sensive Tags"
