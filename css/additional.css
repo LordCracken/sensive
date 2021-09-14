@@ -56,6 +56,60 @@ div.wpcf7 .ajax-loader {
   display: none;
 }
 
+.depth-2 {
+  padding-left: 25px;
+}
+
+.depth-1:last-child .depth-2 .comment-list {
+  padding-bottom: 0;
+}
+
+.comments-area .comment-list:last-child {
+  padding-bottom: 40px;
+}
+
+.cancel-reply-btn a {
+  background-color: rgba(130, 139, 178, 0.1);
+  color: #3a414e;
+  border: 1px solid #eee;
+  padding: 0px 18px;
+  font-size: 13px;
+  display: block;
+  line-height: 28px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+.depth-1 .comment-respond textarea.form-control {
+  height: 140px;
+  resize: none;
+}
+
+.depth-1 .comment-respond .form-control {
+  padding: 8px 20px;
+  background: rgba(130, 139, 178, 0.11);
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  font-size: 13px;
+  color: #999999;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+
+.depth-1 .comment-respond .name {
+  padding-left: 0px;
+}
+
+.depth-1 .comment-respond .email {
+  padding-right: 0px;
+}
+
 @media (min-width: 1200px) {
   .card-img {
     height: 230px;

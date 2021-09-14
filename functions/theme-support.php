@@ -11,6 +11,15 @@ if (!function_exists('sensive_setup')) {
       'header-text' => '',
       'unlink-homepage-logo' => true,
     ]);
+    add_theme_support('html5', array(
+      'comment-list',
+      'comment-form',
+      'search-form',
+      'gallery',
+      'caption',
+      'script',
+      'style',
+    ));
     add_theme_support('post-thumbnails');
   }
   add_action('after_setup_theme', 'sensive_setup');

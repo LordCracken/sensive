@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-12 00:41+0300\n"
+"POT-Creation-Date: 2021-09-14 00:17+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -68,9 +68,85 @@ msgstr "Читать больше"
 msgid "No posts."
 msgstr "Записей нет."
 
+#: comments.php:22
+msgid "Reply"
+msgstr "Ответить"
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr "Комментирование закрыто."
+
+#: comments.php:44
+msgid "Enter Name"
+msgstr "Укажите имя"
+
+#: comments.php:45
+msgid "Enter Email Address"
+msgstr "Укажите Email"
+
+#: comments.php:46
+msgid "Message"
+msgstr "Сообщение"
+
+#: comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:73
+msgid "Reply "
+msgstr "Ответить "
+
+#: comments.php:78
+msgid "Cancel reply"
+msgstr "Отменить"
+
+#: comments.php:79
+msgid "Post comment"
+msgstr "Отправить"
+
 #: footer.php:77
 msgid "All rights reserved"
 msgstr "Все права защищены"
+
+#: functions/comments.php:141 functions/comments.php:240
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/comments.php:143
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: functions/comments.php:165
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions/comments.php:181 functions/comments.php:275
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/comments.php:187
+msgid "(Edit)"
+msgstr ""
+
+#: functions/comments.php:242
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"posted after review."
+msgstr ""
+
+#: functions/comments.php:265
+#, php-format
+msgid "%s"
+msgstr ""
 
 #: functions/post-types.php:7 functions/post-types.php:18 templates/tours.php:5
 msgid "Tours"
@@ -227,3 +303,21 @@ msgstr "Виджет тегов для темы Sensive"
 #: widgets/tags-widget.php:42
 msgid "Tags"
 msgstr "Теги"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Save my data in this browser"
+#~ msgstr "Запомнить"
+
+#~ msgid "Comment"
+#~ msgstr "Комментарий"
+
+#~ msgid "You are logged in as "
+#~ msgstr "Вы вошли как "
+
+#~ msgid "Sign out?"
+#~ msgstr "Выйти?"
+
+#~ msgid "Edit"
+#~ msgstr "Изменить"
