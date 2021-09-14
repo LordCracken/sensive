@@ -1,6 +1,7 @@
   <!--================ Start Footer Area =================-->
   <footer class="footer-area section-padding">
     <div class="container">
+      <?php dynamic_sidebar('sidebar_footer') ?>
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget">

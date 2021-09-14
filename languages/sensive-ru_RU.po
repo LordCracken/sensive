@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sensive\n"
-"POT-Creation-Date: 2021-09-14 00:17+0300\n"
+"POT-Creation-Date: 2021-09-14 11:52+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vladislav Yakimovskiy <vladislav070201@gmail.com>\n"
 "Language-Team: \n"
@@ -48,26 +48,6 @@ msgstr "Архив по дате: "
 msgid "Archive Page"
 msgstr "Архив"
 
-#: archive.php:51 search.php:27 template-parts/content-posts.php:46
-msgid "Empty"
-msgstr "Пусто"
-
-#: archive.php:51 search.php:27
-msgid "1 Comment"
-msgstr "1 коммент."
-
-#: archive.php:51 search.php:27
-msgid "% Comments"
-msgstr "% коммент."
-
-#: archive.php:59 search.php:35 template-parts/content-posts.php:58
-msgid "Read More"
-msgstr "Читать больше"
-
-#: archive.php:64 search.php:40
-msgid "No posts."
-msgstr "Записей нет."
-
 #: comments.php:22
 msgid "Reply"
 msgstr "Ответить"
@@ -95,7 +75,7 @@ msgstr ""
 
 #: comments.php:72
 msgid "Leave a Reply"
-msgstr ""
+msgstr "Оставить комментарий"
 
 #: comments.php:73
 msgid "Reply "
@@ -109,19 +89,21 @@ msgstr "Отменить"
 msgid "Post comment"
 msgstr "Отправить"
 
-#: footer.php:77
+#: footer.php:78
 msgid "All rights reserved"
 msgstr "Все права защищены"
 
 #: functions/comments.php:141 functions/comments.php:240
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ваш комментарий ждёт модерации"
 
 #: functions/comments.php:143
 msgid ""
 "Your comment is awaiting moderation. This is a preview; your comment will be "
 "visible after it has been approved."
 msgstr ""
+"Ваш комментарий ждёт модерации. Это превью. Комментарий будет виден после "
+"подтверждения."
 
 #: functions/comments.php:165
 #, php-format
@@ -135,7 +117,7 @@ msgstr ""
 
 #: functions/comments.php:187
 msgid "(Edit)"
-msgstr ""
+msgstr "(Изменить)"
 
 #: functions/comments.php:242
 msgid ""
@@ -200,6 +182,10 @@ msgstr "Сайдбар блога"
 msgid "Tours Sidebar"
 msgstr "Сайдбар туров"
 
+#: functions/widgets.php:38
+msgid "Footer Sidebar"
+msgstr "Сайдбар в подавле"
+
 #: home.php:7
 msgid "Blog Page"
 msgstr "Блог"
@@ -207,6 +193,26 @@ msgstr "Блог"
 #: search.php:2
 msgid "Search: "
 msgstr "Поиск: "
+
+#: template-parts/content-archive.php:23 template-parts/content-posts.php:46
+msgid "Empty"
+msgstr "Пусто"
+
+#: template-parts/content-archive.php:23
+msgid "1 Comment"
+msgstr "1 коммент."
+
+#: template-parts/content-archive.php:23
+msgid "% Comments"
+msgstr "% коммент."
+
+#: template-parts/content-archive.php:31 template-parts/content-posts.php:58
+msgid "Read More"
+msgstr "Читать больше"
+
+#: template-parts/content-archive.php:36
+msgid "No posts."
+msgstr "Записей нет."
 
 #: template-parts/content-posts.php:54
 msgid "Category:"
@@ -288,7 +294,15 @@ msgstr "Sensive: Поиск"
 msgid "Search widget for Sensive theme"
 msgstr "Виджет поиска для темы Sensive"
 
-#: widgets/search-widget.php:36
+#: widgets/sensive-about.php:21
+msgid "Sensive About Us"
+msgstr "Sensive: О нас"
+
+#: widgets/sensive-about.php:24
+msgid "About us widget for Sensive theme"
+msgstr "Виджет \"О нас\" для темы Sensive"
+
+#: widgets/sensive-about.php:36
 msgid "Search"
 msgstr "Поиск"
 

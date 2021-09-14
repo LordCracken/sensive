@@ -11,6 +11,7 @@ require('widgets/search-widget.php');
 require('widgets/category-widget.php');
 require('widgets/popular-posts-widget.php');
 require('widgets/tags-widget.php');
+require('widgets/about-us.php');
 
 remove_filter('the_content', 'wpautop');
 
