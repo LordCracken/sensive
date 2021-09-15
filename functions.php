@@ -25,8 +25,8 @@ function my_phpmailer_example($phpmailer)
   $phpmailer->Host = 'smtp.timeweb.ru';
   $phpmailer->SMTPAuth = true; // Force it to use Username and Password to authenticate
   $phpmailer->Port = 25;
-  $phpmailer->Username = 'info@vladislav-yakimovskiy.ru';
-  $phpmailer->Password = 'khB3c28D';
+  $phpmailer->Username = 'your@email.site';
+  $phpmailer->Password = 'password';
 
   // Additional settings…
   //$phpmailer->SMTPSecure = "tls"; // Choose SSL or TLS, if necessary for your server
