@@ -12,8 +12,7 @@
             )
           );
 
-          $query = new WP_Query(['s' => get_search_query(), 'sentence' => true, 'paged' => $current, 'posts_per_page' => 8]);
-          if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+          if (have_posts()) : while (have_posts()) : the_post(); ?>
               <div class="col-md-6">
                 <div class="single-recent-blog-post card-view">
                   <div class="thumb">
@@ -42,7 +41,6 @@
             <?php
             global $wp_query;
             $restore_wp_query = $wp_query;
-            $wp_query         = $query;
             the_posts_pagination(array(
               'before_page_number' => '<li class="page-item"><span class="page-link">',
               'after_page_number'  => '</span></li>',

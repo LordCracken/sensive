@@ -34,3 +34,17 @@ function my_phpmailer_example($phpmailer)
   $phpmailer->From = "info@vladislav-yakimovskiy.ru";
   $phpmailer->FromName = "Sensive";
 }
+
+
+
+/** количество постов выводимых на стр. архивов - и произвольный тип записей **/
+function change_pagecount($query)
+{
+  if (is_search() || is_archive()) {
+    // Выводим только 8 постов на странице поиска и т.д.
+    $query->set('posts_per_page', 8);
+    return;
+  }
+}
+add_action('pre_get_posts', 'change_pagecount', 1);
+/** количество постов выводимых на стр. архивов **/
