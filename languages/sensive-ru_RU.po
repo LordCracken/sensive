@@ -71,7 +71,7 @@ msgstr "Сообщение"
 #: comments.php:62
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr ""
+msgstr "Вам нужно <a href=\"%s\">войти</a> для комментирования."
 
 #: comments.php:72
 msgid "Leave a Reply"
@@ -95,7 +95,7 @@ msgstr "Все права защищены"
 
 #: functions/comments.php:141 functions/comments.php:240
 msgid "Your comment is awaiting moderation."
-msgstr "Ваш комментарий ждёт модерации"
+msgstr "Ваш комментарий ждёт модерации."
 
 #: functions/comments.php:143
 msgid ""
@@ -108,12 +108,12 @@ msgstr ""
 #: functions/comments.php:165
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
-msgstr ""
+msgstr "%s <span class=\"says\">сказал:</span>"
 
 #: functions/comments.php:181 functions/comments.php:275
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s at %2$s"
 
 #: functions/comments.php:187
 msgid "(Edit)"
@@ -124,11 +124,13 @@ msgid ""
 "Your comment is awaiting moderation. This is a preview; your comment will be "
 "posted after review."
 msgstr ""
+"Ваш комментарий на модерации. Это превью; ваш комментарий будет опубликован "
+"после проверки."
 
 #: functions/comments.php:265
 #, php-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: functions/post-types.php:7 functions/post-types.php:18 templates/tours.php:5
 msgid "Tours"
